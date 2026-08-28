@@ -1,0 +1,6 @@
+node_modules/
+.versions/
+.workbuddy/
+*.tgz
+npm-debug.log*
+.DS_Store
