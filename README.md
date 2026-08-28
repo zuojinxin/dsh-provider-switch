@@ -73,10 +73,6 @@ provider-switch: {}
 - 重命名时若同时修改了官方字段（API Key、baseURL 等），重命名写入会使 settings revision 前进，官方 apply 可能收到 `settings-conflict` 错误（官方卡片会提示冲突，再次点击应用即可）。
 - 插件只拦 `llm/stream` waterfall。任何绕过该 waterfall 直连供应商的调用方（例如走原生 fetch 的搜索类插件）不在拦截范围内。
 
-## 开发
-
-见 [CONTRIBUTING.md](CONTRIBUTING.md)（本地 junction 安装、版本快照规范、沙箱测试怎么跑）。
-
 ## 许可
 
 MIT · 详见 [LICENSE](LICENSE)
