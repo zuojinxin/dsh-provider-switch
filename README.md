@@ -1,8 +1,5 @@
 # DSH Provider Switch（供应商启停 + 模型搜索 + 重命名）
 
-[![npm](https://img.shields.io/npm/v/dsh-provider-switch)](https://www.npmjs.com/package/dsh-provider-switch)
-[![license](https://img.shields.io/npm/l/dsh-provider-switch)](LICENSE)
-
 DSH 静态插件（web profile）。三个功能：
 
 1. **供应商启用/禁用**：在「设置 → 模型」页，每个供应商行的「编辑」按钮前有一个「已启用/已禁用」开关。
@@ -19,19 +16,11 @@ DSH 静态插件（web profile）。三个功能：
 
 ## 安装
 
-从 npm 安装（推荐）：
-
-```bash
-dsh plugin --profile web add dsh-provider-switch
-```
-
-直接从 GitHub 安装：
-
 ```bash
 dsh plugin --profile web add github:zuojinxin/dsh-provider-switch
 ```
 
-两种方式都**不需要手动编辑任何 profile 文件**——`cordis.patch.yml` 会在安装时由 DSH CLI 自动把 bundle 加进 profile 的 `dsh.profile.bundles`。
+这种方式**不需要手动编辑任何 profile 文件**——`cordis.patch.yml` 会在安装时由 DSH CLI 自动把 bundle 加进 profile 的 `dsh.profile.bundles`。
 
 安装后重启 `dsh web` 即可生效。
 
