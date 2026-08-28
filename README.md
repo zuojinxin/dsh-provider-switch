@@ -8,6 +8,14 @@ DSH 静态插件（web profile）。三个功能：
 2. **模型搜索**：输入框模型选择器的模型面板顶部有搜索框，可关键字过滤（匹配模型名、描述、供应商名，不区分大小写）。
 3. **供应商重命名**：在「设置 → 模型」页展开供应商编辑卡片后，点击卡片标题（供应商名称）即可内联编辑显示名；Enter 或点击「应用」按钮提交，Esc 或「取消」放弃。重命名写入 `llm-pi-ai` 命名空间的 `providers.<id>.displayName` 字段，settings 事件驱动即时同步。清空名称可重置为默认（显示 provider id）。
 
+## 效果预览
+
+![效果图 1](docs/screenshot-1.png)
+
+![效果图 2](docs/screenshot-2.png)
+
+![效果图 3](docs/screenshot-3.png)
+
 ## 前置条件
 
 - **dsh web ≥ 0.1.0-rc.6**（`dsh --version` 查看）
